@@ -1,0 +1,19 @@
+{
+  "name": "por-docs",
+  "version": "1.0.0",
+  "description": "Documentation Repository for POR Product within Mr. Albert. 4th October 2021 Author: #aravind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:mr-albert/docs/por-docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "markdown-it-obsidian": "^1.1.0"
+  }
+}

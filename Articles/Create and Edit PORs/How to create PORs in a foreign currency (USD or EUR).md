@@ -1,3 +1,9 @@
+---
+title: POR Documentation
+layout: layouts/post.ejs
+tags: por
+---
+
 # How to create PORs in a foreign currency
 
 1. Follow the steps in [[How to create a new POR]]

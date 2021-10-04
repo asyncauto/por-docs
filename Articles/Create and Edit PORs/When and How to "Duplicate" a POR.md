@@ -1,3 +1,9 @@
+---
+title: POR Documentation
+layout: layouts/post.ejs
+tags: por
+---
+
 # When to Duplicate a POR
 
 * When a POR has been rejected due to minor errors and a new POR needs to be created with only minor corrections while most of the details (Vendor, Advance %, Payment Terms etc.) need to remain the same.

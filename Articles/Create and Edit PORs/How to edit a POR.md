@@ -1,3 +1,9 @@
+---
+title: POR Documentation
+layout: layouts/post.ejs
+tags: por
+---
+
 # How to edit a POR
 
 1. Click on the Purchase Order Number of the POR you want to edit.

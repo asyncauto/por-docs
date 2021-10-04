@@ -1,3 +1,9 @@
+---
+title: POR Documentation
+layout: layouts/post.ejs
+tags: por
+---
+
 # What is the POR approval process?
 
 * Each POR needs to clear two Approval steps: L1 and L2 

@@ -1,3 +1,9 @@
+---
+title: POR Documentation
+layout: layouts/post.ejs
+tags: por
+---
+
 # How to approve PORs
 
 A L1 Approver or L2 Approver can find the list of PORs pending on them by going to

@@ -1,3 +1,9 @@
+---
+title: POR Documentation
+layout: layouts/post.ejs
+tags: por
+---
+
 # What checks are run when a new POR is created
 
 1. Validation of mandatory fields - marked with red asterisk.
