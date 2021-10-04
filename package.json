@@ -4,7 +4,9 @@
   "description": "Documentation Repository for POR Product within Mr. Albert. 4th October 2021 Author: #aravind",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "add-domain": "echo \"por.docs.mralbert.in\" > _site/CNAME",
+    "build": "env NODE_ENV=production npx eleventy"
   },
   "repository": {
     "type": "git",
