@@ -54,5 +54,5 @@ The POR module is accessed from the "Purchase Order" button present in the scree
 - [[What are the details required to add a new Vendor]]
 
 ## Payouts
-- [[How to make a payout]]
+- [[make_a_payout]]
 - [[How to check and update payout status]]
