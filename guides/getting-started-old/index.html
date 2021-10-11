@@ -9,7 +9,7 @@
 
 
     <!-- Site Properties -->
-    <title>Documentation - Mr.Albert POR</title>
+    <title>Getting Started - POR - Mr.Albert</title>
 
     <link rel="stylesheet" href="/assets/sematic/semantic.min.css">
     <style type="text/css">
@@ -176,7 +176,7 @@
         </div>
       </div> -->
       asfsadfsdaf
-      Documentation - Mr.Albert POR
+      Getting Started - POR - Mr.Albert
       TEST
       <br>
 <br>
@@ -186,15 +186,46 @@
 	<div class='ui centered stackable grid'>
 		<div class='ten wide large screen twelve wide computer forteen wide tablet column'>
 			<div class='ui basic segment' style="font-size: 18px;line-height: 1.5em">
-				<h1>Mr. Albert POR Documentation</h1>
-<p>Welcome to our docs. If you are new to the product, read through the overview below and check out the <strong><a href="/guides/getting-started">Getting Started</a></strong> guide.</p>
-<p>Visit the <strong><a href="/reference">Reference</a></strong> section for detailed documentation on all features of the Mr.Albert POR product.</p>
-<p>In the <strong><a href="/guides">Guides</a></strong> section, read about usage scenarios, best practices and tips to get the most out of the product.</p>
+				<h1>Getting Started</h1>
+<p>This is a quick guide to get started with creating PORs, checking approval status and issuing payouts.</p>
+<p><strong>First, some basics:</strong></p>
+<ul>
+<li>Each POR is linked to a Budget and a Vendor.</li>
+<li>This guide assumes that the required Budgets are already setup by the Approvers/Admins and that the Vendor is not a new vendor.</li>
+</ul>
+<blockquote>
+<p><em>To learn about setting up budgets and new vendors, check these reference articles: <a href="/reference/budget/create-budget">Create a Budget</a> and <a href="/reference/vendor/create-vendor">Add a new Vendor</a></em></p>
+</blockquote>
 <hr>
-<h2>Overview</h2>
-<p>The POR product is a fast and simple end-to-end tool available within Mr.Albert to manage Purchase Orders. PO creation, approval and payout all happen from within the system. Purchase Orders are also synced with the organization's bookkeeping tools.</p>
-<p>Note: For all practical purposes, the terms PO (Purchase Order) and POR (Purchase Order Request) are used interchangeably throughout this documentation.</p>
-<p><em>Read next &gt; The <strong><a href="getting-started-old.md">Getting Started</a></strong> guide.</em></p>
+<h3>Check status of a POR</h3>
+<ol>
+<li>In the &quot;PO Requests&quot; tab, all PORs will be displayed in a table.</li>
+<li>The current status of a POR will be displayed in the &quot;Status&quot; column.</li>
+</ol>
+<blockquote>
+<p><em>Tip: To view detailed status of a POR, click on the &quot;PO Request Number&quot; in the table and it will load the details of the particular POR. Switch to the &quot;Approvals&quot; sub tab on the right half of the page to see both L1 and L2 approval status.</em></p>
+</blockquote>
+<hr>
+<h3>Approve or Reject a POR</h3>
+<ol>
+<li>Users with Approval privileges can find pending PORs in the &quot;Approvals&quot; tab.</li>
+<li>&quot;Pending on me&quot; view displays the list of PORs pending approval by the particular Approver (L1 or L2).</li>
+<li>To approve (or reject) a POR, click on &quot;pending&quot; in the &quot;Status&quot; column.</li>
+<li>In the POR detail page that loads, scroll to the bottom to find the &quot;Approve&quot; (or &quot;Reject&quot;) button.</li>
+</ol>
+<blockquote>
+<p><em>Tip: In the text field above the Approve and Reject buttons, approvers can optionally add a comment to the POR while approving or rejecting.</em></p>
+</blockquote>
+<hr>
+<h3>Issue a Payout</h3>
+<ol>
+<li>Open the POR detail page of the POR for which you want to issue a payout by clicking on the &quot;PO Request Number&quot; from anywhere in the interface, eg. from the table in &quot;PO Requests&quot; tab.</li>
+<li>Switch to the &quot;Payouts&quot; tab on the right.</li>
+<li>Click &quot;Create Payout&quot; to issue the payout. This will trigger an outward payment transaction from the organization's RazorpayX account.</li>
+</ol>
+<blockquote>
+<p><em>Tip: To allow operational flexibility, it is technically possible to issue a payout even if the POR has not received either or both L1 and L2 approval. Always ensure that you are authorized to make the payout in such cases.</em></p>
+</blockquote>
 
 			</div>
 		</div>
