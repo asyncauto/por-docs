@@ -13,5 +13,8 @@ tags: por
 
 3. Make the required changes and click "Submit"
 
+### Things to note when editing a POR
+1. Where the amount is being updated, the change will be saved only if the particular budget has enough size to accommodate the updated amount.
+
 ### When to NEVER edit a POR
 * Do not edit a POR once it has been approved

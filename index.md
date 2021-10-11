@@ -1,58 +1,22 @@
 ---
-title: POR Documentation
+title: Documentation - Mr.Albert POR
 layout: layouts/post.ejs
-tags: por
+tags: docs, por
 ---
+# Mr. Albert POR Documentation
 
+Welcome to our docs. If you are new to the product, read through the overview below and check out the **[Getting Started](/guides/getting-started)** guide.
 
-# PORs (Purchase Order Requests)
+Visit the **[Reference](/reference)** section for detailed documentation on all features of the Mr.Albert POR product.
+
+In the **[Guides](/guides)** section, read about usage scenarios, best practices and tips to get the most out of the product.
+
 ---
-The POR module in Mr.Albert allows the **creation, approval and payout** processes of Purchase Order Requests.
+## Overview
 
-The POR module is accessed from the "Purchase Order" button present in the screen after logging in to Mr.Albert (app.mralbert.in)
+The POR product is a fast and simple end-to-end tool available within Mr.Albert to manage Purchase Orders. PO creation, approval and payout all happen from within the system. Purchase Orders are also synced with the organization's bookkeeping tools.
 
----
+Note: For all practical purposes, the terms PO (Purchase Order) and POR (Purchase Order Request) are used interchangeably throughout this documentation.
 
-## Create and Edit PORs
-- [[How to create a new POR]]
-- [[Who can create and edit PORs]]
-- [[How to edit a POR]]
-- [[What checks are run when a new POR is created]]
-- [[When and How to "Withdraw" a POR]]
-- [[When and How to "Duplicate" a POR]]
-- [[How to create PORs in a foreign currency (USD or EUR)]]
+*Read next > The **[Getting Started](getting-started-old.md)** guide.*
 
-## View PORs
-- [[How to check the status of a POR]]
-- [[How to use search filters to find PORs matching particular criteria]]
-- [[What details are available about each POR]]
-- [[What are the different POR statuses]]
-- [[How to view attachments added to a POR]]
-
-## Approval Process
-- [[What is the POR approval process]]
-- [[How to approve PORs]]
-- [[How to reject PORs]]
-
-## Budgets
-##### Create and Edit Budgets
-- [[What happens to a budget when a new POR is filed under it]]
-- [[How to create a Budget]]
-- [[How to edit Budgets to increase/decrease budget amounts]]
-- [[How to edit Budgets to change Approvers]]
-- [[How to edit Budget details such as code or description]]
-
-##### View Budgets
-- [[How to view an overview of all Budgets]]
-- [[How to view pending PORs under a Budget]]
-- [[How to view approved PORs under a Budget]]
-- [[How to view paid-out PORs under a Budget]]
-
-## Vendors
-- [[How to add a new Vendor]]
-- [[How to edit details of a Vendor]]
-- [[What are the details required to add a new Vendor]]
-
-## Payouts
-- [[make_a_payout]]
-- [[How to check and update payout status]]
