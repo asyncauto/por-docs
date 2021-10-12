@@ -57,13 +57,19 @@ To create a vendor:
 	![Enter new vendor's details](/files/guides-getting-started-step3-create-vendor-form.png)
 <br />
 * Under the "Banking" section in the "Create Vendor" page, enter either bank account details of the vendor or their UPI address, but not both. 
+<br><br />
 *Tip: For details on each of the available fields in the "Create Vendor" page, please read the reference article: [Create or Edit a Vendor](/reference/vendor/create-edit-vendor)*
 <br><br />
 * Click "Submit". The new vendor will now be created and will be visible in the table in the Vendors tab. 
 
 ---
+## 4. Setup Payout integration
 
-## 4. Create the first POR
+To be able to issue payouts from within the Mr.Albert POR interface, your payment processor account (eg. RazorpayX) needs to be connected to your Mr.Albert POR account. To set this up, please send an email to alex@mralbert.in.
+
+---
+
+## 5. Create the first POR
 
 With user accounts added, budgets set up and vendors added, you are now ready to create the first POR. 
 
@@ -75,14 +81,15 @@ To create a POR:
 <br><br />
 * Fill in the details for the POR.
 ![Fill POR Details](/files/guides-getting-started-create-por-details.png)
-	*Tip: For detailed information on all the fields in the Create POR page, read the reference article: [Create or Edit a POR](/reference/por/create-edit-por)*
+<br><br />
+*Tip: For detailed information on all the fields in the Create POR page, read the reference article: [Create or Edit a POR](/reference/por/create-edit-por)*
 <br><br />
 * Click "Submit". The newly created POR will be visible in the table in the PO Requests tab. 
 	* An automated email notification is sent to all admins and approvers whenever a new POR is created. 
 
 ---
 
-## 5. Approve the POR
+## 6. Approve the POR
 
 Ensure that the account you are logged in to is set as the L1 Approver (or L2 Approver, as the case may be) for the budget under which you created the POR in Step 4 above. 
 
@@ -90,35 +97,40 @@ To approve a POR:
 * Navigate to the "Approvals" tab in the Mr.Albert POR interface.
 <br><br />
 * By default, you will be shown the "Pending on me" view which lists all PORs pending approval from you - the L1 or L2 Approver.
+![Approval tab and pending on me list](/files/guides-getting-started-step6-approval-tab-pending-on-me.png)
 <br><br />
 * In the table that lists pending PORs, click on the "pending" link under the "Status" column of the particular POR. 
+![Click on status "pending" link of the POR](/files/guides-getting-started-step6-approval-tab-status-pending-link.png)
 <br><br />
 * Check the details and scroll to the bottom of the page to find the "Approve" or "Reject" buttons. To approve the POR, click "Approve". 
-	* The POR will now be marked as approved by you - L1 or L2 Approver as the case may be.
-	* If you are the L1 Approver, the L2 Approver will need to follow the same steps detailed above to give L2 approval to the POR.
-	* If you are the L2 Approver, the approval process is now complete and you may proceed to payout as needed.
+![Scroll to bottom and click Approve button](/files/guides-getting-started-step6-approval-tab-approve-button.png)
+<br><br />
+* The POR will now be marked as approved by you - L1 or L2 Approver as the case may be.
+* If you are the L1 Approver, the L2 Approver will need to follow the same steps detailed above to give L2 approval to the POR.
+* If you are the L2 Approver, the approval process is now complete and you may proceed to payout as needed.
+* If there is only one level of approval, the approval process will be complete when the POR is given L1 Approval. 
 
 *Tip: For detailed information on all available options related to Approvals, read the reference article: [Approve a POR](/reference/approval/approve-por) and [Reject a POR](/reference/approval/reject-por)*
 
 ---
 
-## 6. Issue Payout
+## 7. Issue Payout
 
 Payout is the final stage of the POR workflow. For approved PORs, payouts can be issued from within the Mr.Albert POR interface. Once issued, payouts will be automatically made from your company's RazorpayX account (or other payment processor accounts) integrated to the Mr.Albert POR account.
 
 To issue a payout:
-* From the "PO Requests" tab (or from anywhere else you find the clickable "PO Request no"s of the PORs - eg. Approvals tab, Budget detail page etc.), click on the "PO Request no" of the POR for which you want to issue the payout.
+* From the "PO Requests" tab (or from anywhere else you find the clickable "PO Request no"s of the PORs - eg. in the Approvals tab, Budget detail page etc.), click on the "PO Request no" of the POR for which you want to issue the payout.
 <br><br />
 * In the POR detail page that loads, switch to the "Payouts" tab shown to the right side of the POR details.
 <br><br />
 * Verify the amounts and click "Create payout". This will trigger an outward payment from the RazorpayX account connected to your Mr.Albert POR account.
-![Payouts tab and create payout](/files/guides-getting-started-step6-payout-tab-create-payout.png)
+![Payouts tab and create payout](/files/guides-getting-started-step7-payout-tab-create-payout.png)
 <br><br />
 * After triggering the payment, reload the page and click the "refresh" icon in the table under "Payout details" to update the status of the payout transaction. 
-![Update payout status](/files/guides-getting-started-step6-payout-tab-refresh-status.png)
+![Update payout status](/files/guides-getting-started-step7-payout-tab-refresh-status.png)
 <br><br />
 * UTR number of successful transactions will be displayed in the table along with the other details.
-![Payout status updated with UTR number](/files/guides-getting-started-step6-payout-tab-processed-utr.png)
+![Payout status updated with UTR number](/files/guides-getting-started-step7-payout-tab-processed-utr.png)
 
 *Tip: For detailed information on all available options related to Payouts, read the reference article: [Issue a Payout](/reference/payout/issue-payout)*
 
