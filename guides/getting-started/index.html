@@ -235,12 +235,16 @@
 <img src="/files/guides-getting-started-step3-create-vendor-form.png" alt="Enter new vendor's details">
 <br /></li>
 <li>Under the &quot;Banking&quot; section in the &quot;Create Vendor&quot; page, enter either bank account details of the vendor or their UPI address, but not both.
+<br><br />
 <em>Tip: For details on each of the available fields in the &quot;Create Vendor&quot; page, please read the reference article: <a href="/reference/vendor/create-edit-vendor">Create or Edit a Vendor</a></em>
 <br><br /></li>
 <li>Click &quot;Submit&quot;. The new vendor will now be created and will be visible in the table in the Vendors tab.</li>
 </ul>
 <hr>
-<h2>4. Create the first POR</h2>
+<h2>4. Setup Payout integration</h2>
+<p>To be able to issue payouts from within the Mr.Albert POR interface, your payment processor account (eg. RazorpayX) needs to be connected to your Mr.Albert POR account. To set this up, please send an email to alex@mralbert.in.</p>
+<hr>
+<h2>5. Create the first POR</h2>
 <p>With user accounts added, budgets set up and vendors added, you are now ready to create the first POR.</p>
 <p>To create a POR:</p>
 <ul>
@@ -251,6 +255,7 @@
 <br><br /></li>
 <li>Fill in the details for the POR.
 <img src="/files/guides-getting-started-create-por-details.png" alt="Fill POR Details">
+<br><br />
 <em>Tip: For detailed information on all the fields in the Create POR page, read the reference article: <a href="/reference/por/create-edit-por">Create or Edit a POR</a></em>
 <br><br /></li>
 <li>Click &quot;Submit&quot;. The newly created POR will be visible in the table in the PO Requests tab.
@@ -260,42 +265,44 @@
 </li>
 </ul>
 <hr>
-<h2>5. Approve the POR</h2>
+<h2>6. Approve the POR</h2>
 <p>Ensure that the account you are logged in to is set as the L1 Approver (or L2 Approver, as the case may be) for the budget under which you created the POR in Step 4 above.</p>
 <p>To approve a POR:</p>
 <ul>
 <li>Navigate to the &quot;Approvals&quot; tab in the Mr.Albert POR interface.
 <br><br /></li>
 <li>By default, you will be shown the &quot;Pending on me&quot; view which lists all PORs pending approval from you - the L1 or L2 Approver.
+<img src="/files/guides-getting-started-step6-approval-tab-pending-on-me.png" alt="Approval tab and pending on me list">
 <br><br /></li>
 <li>In the table that lists pending PORs, click on the &quot;pending&quot; link under the &quot;Status&quot; column of the particular POR.
+<img src="/files/guides-getting-started-step6-approval-tab-status-pending-link.png" alt="Click on status &quot;pending&quot; link of the POR">
 <br><br /></li>
 <li>Check the details and scroll to the bottom of the page to find the &quot;Approve&quot; or &quot;Reject&quot; buttons. To approve the POR, click &quot;Approve&quot;.
-<ul>
+<img src="/files/guides-getting-started-step6-approval-tab-approve-button.png" alt="Scroll to bottom and click Approve button">
+<br><br /></li>
 <li>The POR will now be marked as approved by you - L1 or L2 Approver as the case may be.</li>
 <li>If you are the L1 Approver, the L2 Approver will need to follow the same steps detailed above to give L2 approval to the POR.</li>
 <li>If you are the L2 Approver, the approval process is now complete and you may proceed to payout as needed.</li>
-</ul>
-</li>
+<li>If there is only one level of approval, the approval process will be complete when the POR is given L1 Approval.</li>
 </ul>
 <p><em>Tip: For detailed information on all available options related to Approvals, read the reference article: <a href="/reference/approval/approve-por">Approve a POR</a> and <a href="/reference/approval/reject-por">Reject a POR</a></em></p>
 <hr>
-<h2>6. Issue Payout</h2>
+<h2>7. Issue Payout</h2>
 <p>Payout is the final stage of the POR workflow. For approved PORs, payouts can be issued from within the Mr.Albert POR interface. Once issued, payouts will be automatically made from your company's RazorpayX account (or other payment processor accounts) integrated to the Mr.Albert POR account.</p>
 <p>To issue a payout:</p>
 <ul>
-<li>From the &quot;PO Requests&quot; tab (or from anywhere else you find the clickable &quot;PO Request no&quot;s of the PORs - eg. Approvals tab, Budget detail page etc.), click on the &quot;PO Request no&quot; of the POR for which you want to issue the payout.
+<li>From the &quot;PO Requests&quot; tab (or from anywhere else you find the clickable &quot;PO Request no&quot;s of the PORs - eg. in the Approvals tab, Budget detail page etc.), click on the &quot;PO Request no&quot; of the POR for which you want to issue the payout.
 <br><br /></li>
 <li>In the POR detail page that loads, switch to the &quot;Payouts&quot; tab shown to the right side of the POR details.
 <br><br /></li>
 <li>Verify the amounts and click &quot;Create payout&quot;. This will trigger an outward payment from the RazorpayX account connected to your Mr.Albert POR account.
-<img src="/files/guides-getting-started-step6-payout-tab-create-payout.png" alt="Payouts tab and create payout">
+<img src="/files/guides-getting-started-step7-payout-tab-create-payout.png" alt="Payouts tab and create payout">
 <br><br /></li>
 <li>After triggering the payment, reload the page and click the &quot;refresh&quot; icon in the table under &quot;Payout details&quot; to update the status of the payout transaction.
-<img src="/files/guides-getting-started-step6-payout-tab-refresh-status.png" alt="Update payout status">
+<img src="/files/guides-getting-started-step7-payout-tab-refresh-status.png" alt="Update payout status">
 <br><br /></li>
 <li>UTR number of successful transactions will be displayed in the table along with the other details.
-<img src="/files/guides-getting-started-step6-payout-tab-processed-utr.png" alt="Payout status updated with UTR number"></li>
+<img src="/files/guides-getting-started-step7-payout-tab-processed-utr.png" alt="Payout status updated with UTR number"></li>
 </ul>
 <p><em>Tip: For detailed information on all available options related to Payouts, read the reference article: <a href="/reference/payout/issue-payout">Issue a Payout</a></em></p>
 <hr>
