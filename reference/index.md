@@ -8,21 +8,29 @@ tags: docs, por, reference
 
 The following articles provide in-depth details of all features of the Mr.Albert POR product and how to use them.
 
-### Create and Edit PORs
+### PORs
 
-* **[Create or edit a POR](./por/create-edit-por)**
+* **[Create or Edit a POR](./por/create-edit-por)**
 * **[Withdraw a POR](./por/withdraw-por)**
 * **[Duplicate a POR](./por/duplicate-por)**
+* **[POR Details page](./por/por-details-page)**
 <br />
 ### Budgets
 
-* **[Create a Budget](./budget/create-budget)**
+* **[Create or Edit a Budget](./budget/create-edit-budget)**
+* **[Budget Details page](./budget/budget-details-page)**
 <br />
 ### Vendors
 
-* **[Create a Vendor](./vendor/create-vendor)**
+* **[Create or Edit a Vendor](./vendor/create-edit-vendor)**
+* **[Vendor Details page](./vendor/vendor-details-page)**
 <br />
 ### Approvals
 
 * **[Approve a POR](./approval/approve-por)**
 * **[Reject a POR](./approval/reject-por)**
+
+### Payouts
+
+* **Create/Issue a Payout**
+* **Update Payout Status**

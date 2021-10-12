@@ -31,5 +31,7 @@ The following articles provide information on both frequent and special use case
 
 ### Vendors
 
-### Approvals
+* **View all Purchase Orders linked to a particular vendor**
 
+### Approvals
+* **Check Approval status of a POR**

@@ -10,7 +10,7 @@ tags: por, quick-guide
 * Each POR is linked to a Budget and a Vendor. 
 * This guide assumes that the required Budgets are already setup by the Approvers/Admins and that the Vendor is not a new vendor. 
 
-> *To learn about setting up budgets and new vendors, check these reference articles: [Create a Budget](/reference/budget/create-budget) and [Add a new Vendor](/reference/vendor/create-vendor)*
+> *To learn about setting up budgets and new vendors, check these reference articles: [Create a Budget](create-edit-budget.md) and [Add a new Vendor](create-edit-vendor.md)*
 ---
 ### Create a Purchase Order Request (POR)
 

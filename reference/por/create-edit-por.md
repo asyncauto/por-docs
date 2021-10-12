@@ -9,7 +9,7 @@ tags: por, reference
 * Go to the "PO Requests" tab
 * To create a new POR, click the green-outlined "Create POR" button at the right, above the table.
 * To edit an existing POR, click on the "Purchase Request Number" of the particular POR, scroll to the bottom and click "Edit". The fields and options are the same for creating and editing a POR.
-	* The clickable "Purchase Order Number" can be found at multiple places in the POR tool. Eg. PO Requests tab, Approvals tab, filtered search etc.
+	* The clickable "Purchase Order Number" can be found at multiple places in the Mr.Albert POR interface. Eg. PO Requests tab, Approvals tab, filtered search etc.
 ---
 1. PO Request no.
 	- This field is not editable and will be auto-populated with the next number in the preset series format.
@@ -19,7 +19,7 @@ tags: por, reference
 
 3. Vendor
 	- Click the down arrow in the field to open the drop-down list of Vendors and select the required Vendor.
-	- *Note: New Vendors cannot be added here. To add a new Vendor, see [[create-vendor]]*
+	- *Note: New Vendors cannot be added here. To add a new Vendor, see [[create-edit-vendor]]*
 
 4. Currency
 	- Select the required currency from the drop-down list. Set to INR by default.
@@ -28,7 +28,7 @@ tags: por, reference
 
 5. Budget
 	- From the drop-down list, select the budget under which to file the POR.
-	- *Note: New Budgets cannot be added here. To add a new Budget, see [[create-budget]]*
+	- *Note: New Budgets cannot be added here. To add a new Budget, see [[create-edit-budget]]*
 
 
 6. Enter the Item name, GST %, Unit Price and Quantity.

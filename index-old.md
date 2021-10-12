@@ -37,7 +37,7 @@ The POR module is accessed from the "Purchase Order" button present in the scree
 ## Budgets
 ##### Create and Edit Budgets
 - [[What happens to a budget when a new POR is filed under it]]
-- [How to create a new Budget](/reference/budget/create-budget)
+- [How to create a new Budget](create-edit-budget.md)
 - [[How to edit Budgets to increase/decrease budget amounts]]
 - [[How to edit Budgets to change Approvers]]
 - [[How to edit Budget details such as code or description]]
@@ -49,10 +49,10 @@ The POR module is accessed from the "Purchase Order" button present in the scree
 - [[How to view paid-out PORs under a Budget]]
 
 ## Vendors
-- [[create-vendor]]
+- [[create-edit-vendor]]
 - [[How to edit details of a Vendor]]
 - [[What are the details required to add a new Vendor]]
 
 ## Payouts
-- [[make_a_payout]]
+- [[issue-payout]]
 - [[How to check and update payout status]]
