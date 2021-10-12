@@ -120,6 +120,7 @@ Payout is the final stage of the POR workflow. For approved PORs, payouts can be
 
 To issue a payout:
 * From the "PO Requests" tab (or from anywhere else you find the clickable "PO Request no"s of the PORs - eg. in the Approvals tab, Budget detail page etc.), click on the "PO Request no" of the POR for which you want to issue the payout.
+![Click on the PO Request no](/files/guides-getting-started-step7-payout-tab-click-por-number.png)
 <br><br />
 * In the POR detail page that loads, switch to the "Payouts" tab shown to the right side of the POR details.
 <br><br />
