@@ -5,7 +5,7 @@ tags: guides, getting-started
 ---
 # Getting Started
 
-This guide will take you through the steps to setup the Mr.Albert POR product for your team or organization. 
+This guide will take you through the steps to set up the Mr.Albert POR product for your team or organization. 
 
 * If you are not already a Mr.Albert user, start by signing up at [https://mralbert.in](https://mralbert.in). We will get back to you and guide you on setting up your account.
 
@@ -26,6 +26,8 @@ If you already have a Mr.Albert account, users already added to that account wil
 ---
 ## 2. Create Budgets
 
+Budgets in Mr.Albert POR product are a simple but effective way to maintain a realtime watch on various expense categories. Budgets need not be the same as the detailed Chart of Accounts used by the Accounting team. Instead, it can be a simpler set of easy-to-understand and easy-to-manage expense categories. The simplified approach makes it easy for non-financial personnel like engineers, designers and salespeople to create and manage Purchase Orders by themselves.
+
 All Purchase Order Requests need to be filed under any one budget. Selecting the budget is a mandatory field while creating a POR. A budget needs to be created by following the steps below before a POR can be created under that budget.
 
 To create a budget:
@@ -39,13 +41,17 @@ To create a budget:
 <br />
 *  The drop-down list will be showing users created in Step 1 above. If new users need to be added, repeat Step 1.
 *   It is possible to have just one approver - L1. Leave the L2 Approver field blank in such cases.
-*Tip: For details on each of the available fields in the "Create Budget" page, please read the reference article: [Create or Edit a Budget](/reference/budget/create-edit-budget)*
 <br><br />
-* Click "Submit". The new budget will now be created and should be visible in the Budgets tab. 
+* Click "Submit". The new budget will now be created and should be visible in the Budgets tab.
+
+*Tip: For detailed information on Budgets including details of all available fields in the "Create Budget" page, please read the reference article: [Create or Edit a Budget](/reference/budget/create-edit-budget)*
+
 ---
 ## 3. Create Vendors
 
-A Vendor is another mandatory field to be filled while creating a POR. Similar to the case with budgets, the list of vendors added in this step will be displayed in a drop-down list while creating a POR. A new vendor needs to be created by following the steps below before a POR can be created with that vendor.
+A Vendor in Mr.Albert POR product is an entity to whom a Purchase Order is being initiated. Vendors can be individuals or businesses supplying goods and/or services to your company. 
+
+"Vendor" is another mandatory field to be filled while creating a POR. Similar to the case with budgets, the list of vendors added in this step will be displayed in a drop-down list while creating a POR. A new vendor needs to be created by following the steps below before a POR can be created with that vendor.
 
 To create a vendor:
 * Navigate to the "Vendors" tab in the Mr.Albert POR interface.
@@ -56,20 +62,39 @@ To create a vendor:
 * Enter the details of the vendor.
 	![Enter new vendor's details](/files/guides-getting-started-step3-create-vendor-form.png)
 <br />
-* Under the "Banking" section in the "Create Vendor" page, enter either bank account details of the vendor or their UPI address, but not both. 
-<br><br />
-*Tip: For details on each of the available fields in the "Create Vendor" page, please read the reference article: [Create or Edit a Vendor](/reference/vendor/create-edit-vendor)*
+* Under the "Banking" section in the "Create Vendor" page, enter either bank account details of the vendor or their UPI address, but not both.
 <br><br />
 * Click "Submit". The new vendor will now be created and will be visible in the table in the Vendors tab. 
 
----
-## 4. Setup Payout integration
+*Tip: For detailed information on Vendors including details of all available fields in the "Create Vendor" page and important things to note while managing Vendors, please read the reference article: [Create or Edit a Vendor](/reference/vendor/create-edit-vendor)*
 
-To be able to issue payouts from within the Mr.Albert POR interface, your payment processor account (eg. RazorpayX) needs to be connected to your Mr.Albert POR account. To set this up, please send an email to alex@mralbert.in.
+---
+## 4. Set up Payout integration
+
+Mr.Albert POR product offers the option to issue payouts to Vendors (against approved Purchase Order Requests), from within the Mr.Albert POR interface. To be able to do this, your payment processor account (eg. RazorpayX) needs to be connected to your Mr.Albert POR account. 
+<br><br />
+To set up payout integration, 
+* Go to your Organization's Settings by hovering over your Organization's name at the right end of the navigation bar at the top, and click "Settings"
+<br><br />
+* Click on "Integrations" in the menu on the left.
+![Go to Integration settings within your Organization's settings](/files/guides-getting-started-step4-payout-integration-setup.png)
+<br><br />
+* Click on "Integrate" in the RazorpayX tile.
+<br><br />
+* Enter your RazorpayX Org id, Key id, Secret and Bank account number.
+(For help with finding or generating these details, [check this RazorpayX reference article.](https://razorpay.com/docs/razorpayx/api/#api-authentication))
+<br><br />
+* Click "Submit".
 
 ---
 
 ## 5. Create the first POR
+
+A Purchase Order Request is an entry created by a user of the Organization requesting approval to purchase goods and/or services from external entities - Vendors. A Purchase Order Request should:
+* be filed under a suitable budget
+* be addressed to a single vendor
+* contain details of the item(s) to be purchased
+* contain payment terms and the required payment mode
 
 With user accounts added, budgets set up and vendors added, you are now ready to create the first POR. 
 
@@ -81,7 +106,7 @@ To create a POR:
 <br><br />
 * Fill in the details for the POR.
 ![Fill POR Details](/files/guides-getting-started-create-por-details.png)
-<br><br />
+
 *Tip: For detailed information on all the fields in the Create POR page, read the reference article: [Create or Edit a POR](/reference/por/create-edit-por)*
 <br><br />
 * Click "Submit". The newly created POR will be visible in the table in the PO Requests tab. 
@@ -91,9 +116,12 @@ To create a POR:
 
 ## 6. Approve the POR
 
-Ensure that the account you are logged in to is set as the L1 Approver (or L2 Approver, as the case may be) for the budget under which you created the POR in Step 4 above. 
+All PORs need to the pass through an approval process, in which the POR may either be approved or rejected by the approver(s) of the budget under which the POR is filed. By default, there are two levels of approval - L1 and L2. The number of approval levels can be changed based on administrative requirements. 
 
 To approve a POR:
+
+Ensure that the account you are logged in to is set as the L1 Approver (or L2 Approver, as the case may be) for the budget under which you created the POR in Step 4 above. 
+
 * Navigate to the "Approvals" tab in the Mr.Albert POR interface.
 <br><br />
 * By default, you will be shown the "Pending on me" view which lists all PORs pending approval from you - the L1 or L2 Approver.
@@ -109,7 +137,7 @@ To approve a POR:
 * If you are the L1 Approver, the L2 Approver will need to follow the same steps detailed above to give L2 approval to the POR.
 * If you are the L2 Approver, the approval process is now complete and you may proceed to payout as needed.
 * If there is only one level of approval, the approval process will be complete when the POR is given L1 Approval. 
-
+<br><br />
 *Tip: For detailed information on all available options related to Approvals, read the reference article: [Approve a POR](/reference/approval/approve-por) and [Reject a POR](/reference/approval/reject-por)*
 
 ---
