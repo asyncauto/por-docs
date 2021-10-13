@@ -187,7 +187,7 @@
 		<div class='ten wide large screen twelve wide computer forteen wide tablet column'>
 			<div class='ui basic segment' style="font-size: 18px;line-height: 1.5em">
 				<h1>Getting Started</h1>
-<p>This guide will take you through the steps to setup the Mr.Albert POR product for your team or organization.</p>
+<p>This guide will take you through the steps to set up the Mr.Albert POR product for your team or organization.</p>
 <ul>
 <li>
 <p>If you are not already a Mr.Albert user, start by signing up at <a href="https://mralbert.in">https://mralbert.in</a>. We will get back to you and guide you on setting up your account.</p>
@@ -204,6 +204,7 @@
 <p>If you already have a Mr.Albert account, users already added to that account will be available within the POR product as well.</p>
 <hr>
 <h2>2. Create Budgets</h2>
+<p>Budgets in Mr.Albert POR product are a simple but effective way to maintain a realtime watch on various expense categories. Budgets need not be the same as the detailed Chart of Accounts used by the Accounting team. Instead, it can be a simpler set of easy-to-understand and easy-to-manage expense categories. The simplified approach makes it easy for non-financial personnel like engineers, designers and salespeople to create and manage Purchase Orders by themselves.</p>
 <p>All Purchase Order Requests need to be filed under any one budget. Selecting the budget is a mandatory field while creating a POR. A budget needs to be created by following the steps below before a POR can be created under that budget.</p>
 <p>To create a budget:</p>
 <ul>
@@ -217,13 +218,14 @@
 <br /></li>
 <li>The drop-down list will be showing users created in Step 1 above. If new users need to be added, repeat Step 1.</li>
 <li>It is possible to have just one approver - L1. Leave the L2 Approver field blank in such cases.
-<em>Tip: For details on each of the available fields in the &quot;Create Budget&quot; page, please read the reference article: <a href="/reference/budget/create-edit-budget">Create or Edit a Budget</a></em>
 <br><br /></li>
 <li>Click &quot;Submit&quot;. The new budget will now be created and should be visible in the Budgets tab.</li>
 </ul>
+<p><em>Tip: For detailed information on Budgets including details of all available fields in the &quot;Create Budget&quot; page, please read the reference article: <a href="/reference/budget/create-edit-budget">Create or Edit a Budget</a></em></p>
 <hr>
 <h2>3. Create Vendors</h2>
-<p>A Vendor is another mandatory field to be filled while creating a POR. Similar to the case with budgets, the list of vendors added in this step will be displayed in a drop-down list while creating a POR. A new vendor needs to be created by following the steps below before a POR can be created with that vendor.</p>
+<p>A Vendor in Mr.Albert POR product is an entity to whom a Purchase Order is being initiated. Vendors can be individuals or businesses supplying goods and/or services to your company.</p>
+<p>&quot;Vendor&quot; is another mandatory field to be filled while creating a POR. Similar to the case with budgets, the list of vendors added in this step will be displayed in a drop-down list while creating a POR. A new vendor needs to be created by following the steps below before a POR can be created with that vendor.</p>
 <p>To create a vendor:</p>
 <ul>
 <li>Navigate to the &quot;Vendors&quot; tab in the Mr.Albert POR interface.
@@ -235,16 +237,37 @@
 <img src="/files/guides-getting-started-step3-create-vendor-form.png" alt="Enter new vendor's details">
 <br /></li>
 <li>Under the &quot;Banking&quot; section in the &quot;Create Vendor&quot; page, enter either bank account details of the vendor or their UPI address, but not both.
-<br><br />
-<em>Tip: For details on each of the available fields in the &quot;Create Vendor&quot; page, please read the reference article: <a href="/reference/vendor/create-edit-vendor">Create or Edit a Vendor</a></em>
 <br><br /></li>
 <li>Click &quot;Submit&quot;. The new vendor will now be created and will be visible in the table in the Vendors tab.</li>
 </ul>
+<p><em>Tip: For detailed information on Vendors including details of all available fields in the &quot;Create Vendor&quot; page and important things to note while managing Vendors, please read the reference article: <a href="/reference/vendor/create-edit-vendor">Create or Edit a Vendor</a></em></p>
 <hr>
-<h2>4. Setup Payout integration</h2>
-<p>To be able to issue payouts from within the Mr.Albert POR interface, your payment processor account (eg. RazorpayX) needs to be connected to your Mr.Albert POR account. To set this up, please send an email to alex@mralbert.in.</p>
+<h2>4. Set up Payout integration</h2>
+<p>Mr.Albert POR product offers the option to issue payouts to Vendors (against approved Purchase Order Requests), from within the Mr.Albert POR interface. To be able to do this, your payment processor account (eg. RazorpayX) needs to be connected to your Mr.Albert POR account.
+<br><br />
+To set up payout integration,</p>
+<ul>
+<li>Go to your Organization's Settings by hovering over your Organization's name at the right end of the navigation bar at the top, and click &quot;Settings&quot;
+<br><br /></li>
+<li>Click on &quot;Integrations&quot; in the menu on the left.
+<img src="/files/guides-getting-started-step4-payout-integration-setup.png" alt="Go to Integration settings within your Organization's settings">
+<br><br /></li>
+<li>Click on &quot;Integrate&quot; in the RazorpayX tile.
+<br><br /></li>
+<li>Enter your RazorpayX Org id, Key id, Secret and Bank account number.
+(For help with finding or generating these details, <a href="https://razorpay.com/docs/razorpayx/api/#api-authentication">check this RazorpayX reference article.</a>)
+<br><br /></li>
+<li>Click &quot;Submit&quot;.</li>
+</ul>
 <hr>
 <h2>5. Create the first POR</h2>
+<p>A Purchase Order Request is an entry created by a user of the Organization requesting approval to purchase goods and/or services from external entities - Vendors. A Purchase Order Request should:</p>
+<ul>
+<li>be filed under a suitable budget</li>
+<li>be addressed to a single vendor</li>
+<li>contain details of the item(s) to be purchased</li>
+<li>contain payment terms and the required payment mode</li>
+</ul>
 <p>With user accounts added, budgets set up and vendors added, you are now ready to create the first POR.</p>
 <p>To create a POR:</p>
 <ul>
@@ -254,10 +277,11 @@
 <img src="/files/guides-getting-started-create-por-button.png" alt="Create POR button">
 <br><br /></li>
 <li>Fill in the details for the POR.
-<img src="/files/guides-getting-started-create-por-details.png" alt="Fill POR Details">
-<br><br />
-<em>Tip: For detailed information on all the fields in the Create POR page, read the reference article: <a href="/reference/por/create-edit-por">Create or Edit a POR</a></em>
-<br><br /></li>
+<img src="/files/guides-getting-started-create-por-details.png" alt="Fill POR Details"></li>
+</ul>
+<p><em>Tip: For detailed information on all the fields in the Create POR page, read the reference article: <a href="/reference/por/create-edit-por">Create or Edit a POR</a></em>
+<br><br /></p>
+<ul>
 <li>Click &quot;Submit&quot;. The newly created POR will be visible in the table in the PO Requests tab.
 <ul>
 <li>An automated email notification is sent to all admins and approvers whenever a new POR is created.</li>
@@ -266,8 +290,9 @@
 </ul>
 <hr>
 <h2>6. Approve the POR</h2>
-<p>Ensure that the account you are logged in to is set as the L1 Approver (or L2 Approver, as the case may be) for the budget under which you created the POR in Step 4 above.</p>
+<p>All PORs need to the pass through an approval process, in which the POR may either be approved or rejected by the approver(s) of the budget under which the POR is filed. By default, there are two levels of approval - L1 and L2. The number of approval levels can be changed based on administrative requirements.</p>
 <p>To approve a POR:</p>
+<p>Ensure that the account you are logged in to is set as the L1 Approver (or L2 Approver, as the case may be) for the budget under which you created the POR in Step 4 above.</p>
 <ul>
 <li>Navigate to the &quot;Approvals&quot; tab in the Mr.Albert POR interface.
 <br><br /></li>
@@ -283,9 +308,10 @@
 <li>The POR will now be marked as approved by you - L1 or L2 Approver as the case may be.</li>
 <li>If you are the L1 Approver, the L2 Approver will need to follow the same steps detailed above to give L2 approval to the POR.</li>
 <li>If you are the L2 Approver, the approval process is now complete and you may proceed to payout as needed.</li>
-<li>If there is only one level of approval, the approval process will be complete when the POR is given L1 Approval.</li>
+<li>If there is only one level of approval, the approval process will be complete when the POR is given L1 Approval.
+<br><br />
+<em>Tip: For detailed information on all available options related to Approvals, read the reference article: <a href="/reference/approval/approve-por">Approve a POR</a> and <a href="/reference/approval/reject-por">Reject a POR</a></em></li>
 </ul>
-<p><em>Tip: For detailed information on all available options related to Approvals, read the reference article: <a href="/reference/approval/approve-por">Approve a POR</a> and <a href="/reference/approval/reject-por">Reject a POR</a></em></p>
 <hr>
 <h2>7. Issue Payout</h2>
 <p>Payout is the final stage of the POR workflow. For approved PORs, payouts can be issued from within the Mr.Albert POR interface. Once issued, payouts will be automatically made from your company's RazorpayX account (or other payment processor accounts) integrated to the Mr.Albert POR account.</p>
