@@ -10,10 +10,11 @@ The following articles provide in-depth details of all features of the Mr.Albert
 
 ### PORs
 
+* **[What is a POR in Mr.Albert?](./por/what-is-a-por)**
 * **[Create or Edit a POR](./por/create-edit-por)**
 * **[Withdraw a POR](./por/withdraw-por)**
 * **[Duplicate a POR](./por/duplicate-por)**
-* **[POR Details page](./por/por-details-page)**
+* **[The POR Details page](./por/por-details-page)**
 <br />
 ### Budgets
 

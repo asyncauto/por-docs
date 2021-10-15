@@ -1,7 +1,7 @@
 ---
-title: POR Documentation
+title: Withdraw a POR - Mr.Albert POR Reference
 layout: layouts/post.ejs
-tags: por
+tags: por, withdraw, reference
 ---
 
 # When to Withdraw a POR
@@ -19,6 +19,6 @@ Eg. Vendor cancelled the order, requirements changed etc.
 
 1. Click on the Purchase Order Number of the POR you want to withdraw.
 	- This can be done from wherever the clickable Purchase Order Number is displayed. Eg. PO Requests tab, Approvals tab etc.
-
+<br><br />
 2. Scroll to the bottom of the POR Details page to find and click the "Withdraw PO" button.
 

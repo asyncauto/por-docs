@@ -21,7 +21,7 @@ The following articles provide information on both frequent and special use case
 
 ### PORs
 * **What is a PO/POR?**
-* **[The POR Approval Process - Explained](./por/por-approval-process)**
+* **[The POR Approval Process - Explained](por-approval-process.md)**
 * **[Create POR in foreign currency (USD/EUR)](./por/foreign-currency-por)**
 * **[What checks are run when a POR is created or edited?](./por/por-checks)**
 

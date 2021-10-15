@@ -1,10 +1,10 @@
 ---
-title: POR Approval Process - Explained - Mr.Albert POR Guides
+title: POR Approval Process - Mr.Albert POR Reference
 layout: layouts/post.ejs
-tags: por, approval
+tags: por, approval, reference
 ---
 
-# POR Approval Process - Explained
+# What is the Approval Process in Mr.Albert POR product?
 
 * Each POR needs to clear two Approval steps: L1 and L2 
 * Who approves the PORs?
