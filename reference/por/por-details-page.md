@@ -60,12 +60,12 @@ The Summary tab displays two statuses - the current status of the POR and whethe
 While the Status column in the Summary tab only shows the current approval status of a POR, the Approvals tab in the POR Details page shows status of approval levels along with additional information such as Approver names and Comments (if any). 
 
 **Level**
-* Shows the Approval level number - `1` for L1, `2` for L2...) 
+* Shows the Approval level number - `1` for L1, `2` for L2 etc.
 
 **Approver**
 * Shows the name of the corrensponding level's Approver. 
 
-*Tip: Approvers for the different approval levels are set in a Budget's details. Also, different Budgets can have different Approvers. To learn more about setting Approvers, refer to [Create or Edit a Budget](create-edit-budget)*.
+*Tip: Approvers for the different approval levels are set in a Budget's details. Also, different Budgets can have different Approvers. To learn more about setting Approvers, refer to [Create or Edit a Budget](/reference/budget/create-edit-budget)*.
 
 **Status**
 * Shows the status of the corresponding approval level - `pending` or `approved`
@@ -93,7 +93,7 @@ This is where payouts are issued. The Payouts tab displays the final amount to b
 **Payable:**
 * **TDS deduction**
 	*   "in %" - shows the TDS percentage applicable to the Vendor. 
-			*This detail is fetched from the TDS category selected for a Vendor while creating the Vendor. To learn about changing the TDS category and all details pertaining to a Vendor, refer [Create or Edit a Vendor](create-edit-vendor)*
+			*This detail is fetched from the TDS category selected for a Vendor while creating the Vendor. To learn about changing the TDS category and all details pertaining to a Vendor, refer [Create or Edit a Vendor](/reference/vendor/create-edit-vendor)*
 
 	*	"in INR" - shows the TDS amount calculated based on the TDS percentage.
 <br><br />
@@ -133,10 +133,10 @@ This is where payouts are issued. The Payouts tab displays the final amount to b
 Below the POR details, there are three action buttons.
 
 * The "Edit" button takes you to the page where you can make changes to a POR.
-*Refer to [Create or Edit a POR](create-edit-por) for details on editing a POR*
+*Refer to [Create or Edit a POR](/reference/por/create-edit-por) for details on editing a POR*
 <br><br />
 * The "Duplicate" button creates a new POR with the same details of the particular POR being viewed.
-*Refer to [Duplicate a POR](duplicate-por) for more details*
+*Refer to [Duplicate a POR](/reference/por/duplicate-por) for more details*
 <br><br />
 * The "Withdraw PO" button marks the POR as withdrawn and removes it from the list of PORs pending approvals.
-*Refer to [Withdraw a POR](withdraw-por) for more details*
+*Refer to [Withdraw a POR](/reference/por/withdraw-por) for more details*
