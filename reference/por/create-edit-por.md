@@ -45,8 +45,27 @@ tags: por, reference
 		- Enter a numerical value. Eg. "35"
 	- Payment Process
 		- Select the appropriate option from the drop-down list. 
+			The options include:
+			- Bank Transfer
+			- UPI
+			- SWIFT
+			- Card
+			- Cash
+			- Reimbursement
+			- Credit 
+		- Payment Terms
+			- Select the appropriate option from the drop-down list.
+				The options include:
+				- Immediate
+				- Net 15
+				- Net 30
+				- Net 45
+				- Net 60
+				- Other
 <br><br />
-11. Click "Submit" once finished entering all required details.
+
+	- 
+-	Click "Submit" once finished entering all required details.
 
 * If any error messages are shown after submitting, fix the errors following the instructions. 
 * If the Budget under which the POR is being filed doesn't have available funds to accept the POR, the POR will not be created. 
