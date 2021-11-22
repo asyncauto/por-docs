@@ -9,7 +9,7 @@ tags: guide, docs
 The following articles provide information on both frequent and special use cases along with tips on how to efficiently use the POR product.
 
 ### Getting Started
-* **[Getting Started with Mr.Albert POR](getting-started)**
+* **[Getting Started with Mr.Albert POR](/guides/quick-guides/getting-started)**
 
 #### Quick Guides
 
