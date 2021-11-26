@@ -24,7 +24,7 @@ tags: por, reference
 4. Currency
 	- Select the required currency from the drop-down list. The default currency is INR.
 	- Available non-INR currencies are USD and EUR. 
-	- A fixed conversion rate is used. 1 USD = 75 INR and 1 EUR = 87 EUR.
+	- A fixed conversion rate is used. 1 USD = 75 INR and 1 EUR = 87 INR.
 <br><br />
 5. Budget
 	- From the drop-down list, select the budget under which to file the POR.
